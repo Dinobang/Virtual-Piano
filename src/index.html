@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Virtual Piano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dis.css"/>
+</head>
+<body>
+<div class="block1">
+<h1>Виртуальное
+    <br/> котонино</h1>
+<div  class="helper" >
+<p class="helper"> ?</p>
+<p class="helper" id="instruction">нажми меня!</p>
+</div>
+
+<div class="helpBox" id="help">Привет! Это вирутальное пианино.
+    С его помощью можно создавать мелодии из различного
+    мяуканья котов. Для использования сайта откройте клавиатуру своего
+    устройства и нажимайте соответствующие клавиши.
+    Важно: раскладка клавиатуры должна быть английской!
+</div>
+<div class="under">
+    <div class="container">
+        <div class="white-keys">
+            <kbd id="a" class="A" style="color:black;">A</kbd>
+            <kbd id="s" class="S" style="color:black;">S</kbd>
+            <kbd id="d" class="D" style="color:black;">D</kbd>
+            <kbd id="f" class="F" style="color:black;">F</kbd>
+            <kbd id="g" class="G" style="color:black;">G</kbd>
+            <kbd id="h" class="H" style="color:black;">H</kbd>
+            <kbd id="j" class="J" style="color:black;">J</kbd>
+            </div>
+        <div class="black-keys">
+            <kbd id="w" class="W" style="color:antiquewhite;">W</kbd>
+            <kbd id="e" class="E" style="color:antiquewhite;">E</kbd>
+            <kbd id="t" class="T" style="color:antiquewhite;">T</kbd>
+            <kbd id="y" class="Y" style="color:antiquewhite;">Y</kbd>
+            <kbd id="u" class="U" style="color:antiquewhite;">U</kbd></div>
+    </div>
+</div>
+</div>
+<div class="block2">
+    <div class="under2">
+    <p class="player">Добавить звуки дождя по крыше</p>
+    <p class="player" onClick="togglePlay()">▶</p>
+    <audio loop id="audio1" src="music/rain.mp3"></audio>
+    <p class="player2">Добавить звуки улицы</p>
+    <p class="player2" onClick="togglePlay2()">▶</p>
+    <audio loop id="audio2" src="music/street.mp3" ></audio>
+    </div>
+</div>
+<script src="events.js"></script>
+</body>
+</html>
