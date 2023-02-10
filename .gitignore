@@ -1,0 +1,78 @@
+# Создано https://www.toptal.com/developers/gitignore/api/macos,windows,linux
+# Редактировать на https://www.toptal.com/developers/gitignore?templates=macos,windows,linux
+
+### Линукс ###
+*~
+
+# временные файлы, которые могут быть созданы, если процесс все еще имеет открытый дескриптор удаленного файла
+.fuse_hidden*
+
+# Настройки каталога KDE
+.директория
+
+# Папка для мусора Linux, которая может появиться на любом разделе или диске
+.Мусор-*
+
+# Файлы .nfs создаются, когда открытый файл удаляется, но к нему все еще обращаются
+.нфс*
+
+### macOS ###
+# Общий
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Иконка должна заканчиваться двумя \r
+Икона
+
+
+# Миниатюры
+._*
+
+# Файлы, которые могут появиться в корне тома
+.DocumentRevisions-V100
+.fseventsd
+.Прожектор-V100
+.Временные элементы
+.Корзины
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Каталоги, потенциально созданные на удаленном общем ресурсе AFP
+.AppleDB
+.AppleDesktop
+Папка сетевой корзины
+Временные предметы
+.apdisk
+
+### Патч для macOS ###
+# сгенерированные iCloud файлы
+*.icloud
+
+### Окна ###
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: зашифровано
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+*.стекдамп
+
+# Конфигурационный файл папки
+[Dd]esktop.ini
+
+# Корзина, используемая в файловых ресурсах
+$РЕЦИКЛ.БИН/
+
+# файлы установщика Windows
+*.такси
+*.msi
+*.msix
+*.msm
+*.MSP
+
+# Ярлыки Windows
+*.lnk
+
+# Конец https://www.toptal.com/developers/gitignore/api/macos,windows,linux
