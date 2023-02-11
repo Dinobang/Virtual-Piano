@@ -102,7 +102,8 @@ html {
 h1 {
 
     text-align: center;
-    margin-top: 2%;
+    margin-top: 0%;
+    padding-top: 2%;
     font-size: 4rem;
     font-family: 'Press Start 2P', cursive;
     color: rgb(244, 181, 176);
@@ -194,12 +195,22 @@ p{
 
 .back {
     display: none;
-    opacity: 85%;
-    z-index: 10;
+    opacity: 93%;
+    z-index: 100;
     background-color: black;
-    height: 165vh;
+    height: 170vh;
     width: 100vw;
+    position: absolute;
+    margin:0;
+    padding:0;
 }
+
+html, body {
+    position: relative;
+}
+
+
+
 
 
 
