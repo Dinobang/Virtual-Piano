@@ -29,14 +29,22 @@ body {
 }
 
 .block1 {
+    margin: 0 auto;
     height: 95vh;
-    width: 100vw;
+    max-width: 100vw;
 }
 .block2 {
+    margin: 0 auto;
     height: 70vh;
-    width: 100vw;
+    max-width: 100vw;
 }
 
+
+html {
+    overflow-x: hidden;
+    margin: 0 auto;
+    max-width: 100vw;
+}
 .black-keys kbd {
     display: inline-block;
     background-color: black;
@@ -129,12 +137,13 @@ p{
 .helpBox {
     display: none;
     z-index: 4;
-    position: fixed;
+    position: absolute;
     font-size: 1rem;
     font-family: 'Press Start 2P', cursive;
     width: 20%;
     margin-left: 5%;
     margin-top: 3%;
+    margin-bottom: 3%;
     background-color: rgb(244, 181, 176);
     padding: 2rem;
     border: rgb(97, 74, 102) 3px solid;
@@ -168,7 +177,7 @@ p{
 }
 
 html {
-    overflow-x: hidden;
+
 }
 
 ::-webkit-scrollbar {
@@ -186,5 +195,7 @@ html {
     border-radius: 10px;
     background-color: thistle;
 }
+
+
 
 

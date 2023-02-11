@@ -11,7 +11,7 @@ document.addEventListener("keydown", function (event) {
 
     if (white.includes(event.code)) {
         console.log(`The '${event.key}' key is pressed.`);
-        let audio = new Audio(`whiteKeys/${event.key[event.key.length - 1]}.mp3`);
+        let audio = new Audio(`whiteKeys/${event.key[event.key.length - 1].toUpperCase()}.mp3`);
         audio.play();
         if (document.getElementById(event.key).style.color === "black"){
             console.log("yes");
@@ -23,7 +23,7 @@ document.addEventListener("keydown", function (event) {
 
     } else if (black.includes(event.code)) {
         console.log(`The '${event.key}' key is pressed.`);
-        let audio = new Audio(`blackKeys/${event.key[event.key.length - 1]}.mp3`);
+        let audio = new Audio(`blackKeys/${event.key[event.key.length - 1].toUpperCase()}.mp3`);
         audio.play();
         if (document.getElementById(event.key).style.color === "antiquewhite"){
             console.log("yes");
