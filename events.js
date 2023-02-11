@@ -24,6 +24,7 @@ document.addEventListener("keydown", function (event) {
     } else if (black.includes(event.code)) {
         console.log(`The '${event.key}' key is pressed.`);
         let audio = new Audio(`blackKeys/${event.key[event.key.length - 1].toUpperCase()}.mp3`);
+        console.log(`blackKeys/${event.key[event.key.length - 1].toUpperCase()}.mp3`);
         audio.play();
         if (document.getElementById(event.key).style.color === "antiquewhite"){
             console.log("yes");
@@ -46,12 +47,15 @@ document.addEventListener("click", function (event) {
     if (event.target.className === "helper") {
         if (blockCond === "none"){
             document.getElementById("help").style.display = "block";
+            document.getElementById("background").style.display = "block";
         } else {
             document.getElementById("help").style.display = "none";
+            document.getElementById("background").style.display = "none";
         }
     } else {
         if (blockCond === "block") {
             document.getElementById("help").style.display = "none";
+            document.getElementById("background").style.display = "none";
         }
     }
 });
