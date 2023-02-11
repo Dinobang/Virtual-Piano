@@ -2,6 +2,7 @@
 A tool for creating sound effects from meows, notes and various sounds
 ## Interface
 You can open "helpBox" by touching a "?" element.
+
 ![image](https://user-images.githubusercontent.com/89692740/218261262-eaaf684e-7baa-4961-b6e9-0fa97ac39906.png)
 So you will see this window: 
 ![image](https://user-images.githubusercontent.com/89692740/218261329-725c53e2-03a5-43bd-85b3-98aaf98fac03.png)
